@@ -1,0 +1,12 @@
+{
+	"auth": "conf/auth.json", //location of authorization config file (no / is relative to the script)
+	"rack_master": "conf/rack_master.json", //description of what is in the racks
+	"base_directory": "/var/pan/fault",  //Directory we put temporary files
+	//"html_directory": "/var/www/html",        //Base directory of the web server
+	"html_directory": "/tmp/html",        //Base directory of the web server
+  "html_power_directory": "pan/fault",  //Directory in web directory, that we want to store html & pics
+	"remote_www_server": "ganglia.uoa.nesi.org.nz",
+	//"remote_html_directory": "/var/www/gangila2/",
+	"remote_html_directory": "/tmp/html",
+  "remote_html_fault_directory": "pan/fault"  //Directory in web directory, that we want to store html & pics
+}
