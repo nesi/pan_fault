@@ -33,7 +33,7 @@ eg.
 In root's crontab:
 */6 * * * * /root/bin/pan_fault/bin/ipmi_host_status.rb
 
-The conf/rack_master.json file also needs to be copied to the web directory, along with the web/rack_fault.html. 
+The web/rack_fault.json file also needs to be copied to the web directory, along with the web/rack_fault.html. 
 
 The conf/config.json file defines where directories are.
 
